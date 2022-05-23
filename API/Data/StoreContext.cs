@@ -8,7 +8,7 @@ using API.Entities;
 namespace API.Data
 {
     // our store context class will extend from  the DbContext class and will inhereit many of its methods
-    public class StoreContext : DbContext
+    public class StoreContext : DbContext // dbcontext can be thought of as a session in accessing the database
     {
         public StoreContext(DbContextOptions options) : base(options)
         {
